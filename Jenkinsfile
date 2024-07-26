@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('clone') {
+        stage('pora') {
             steps {
                 git branch: 'main', url: 'https://github.com/CloudTechDevOps/Terraform_CICD.git'
             }
